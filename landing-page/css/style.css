@@ -33,6 +33,10 @@ body, html {
   height: 100%;
 }
 
+.test{
+    opacity: 1;
+}
+
 body {
   font-family: "Arimo", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -48,6 +52,8 @@ p {
   font-family: "Arimo", sans-serif;
 }
 
+
+
 a {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -59,7 +65,7 @@ a {
 a:hover, a:focus {
   text-decoration: none;
   outline: 0 !important;
-  color: white;
+  color: #62B6E4;
 }
 
 button {
@@ -119,7 +125,7 @@ hr.separator {
 @media (min-width: 768px) {
   .vertical-align-child {
     display: -webkit-flex;
-    display: -moz-flex;
+
     display: -ms-flexbox;
     display: flex;
     align-items: center;
@@ -452,7 +458,7 @@ hr.separator {
   font-size: 70px;
   line-height: 70px;
   font-weight: 900;
-  margin: 20px 0;
+
   font-family: "Open Sans", sans-serif;
 }
 .price-box .price sup, .price-box .price sub {
@@ -753,7 +759,9 @@ hr.separator {
   padding: 80px 0;
   background-color: #fff;
 }
-
+#newsletter {
+    padding: 80px 0;
+    background-color: #fff;}
 .feature-box {
   margin-bottom: 40px;
   text-align: center;
