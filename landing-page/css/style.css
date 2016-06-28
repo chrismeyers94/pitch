@@ -74,6 +74,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
 }
+.try {
+    margin-top: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
 
 hr.separator {
     border-top: 1px solid #f56363;
@@ -750,6 +755,18 @@ hr.separator {
 }
 
 #features {
+    padding: 80px 0;
+    background-color: #fff;}
+
+#pricing {
+    padding: 80px 0;
+    background-color: #fff;
+}
+#cal {
+    padding: 80px 0;
+    background-color: #fff;
+}
+#newsletter {
     padding: 80px 0;
     background-color: #fff;
 }
